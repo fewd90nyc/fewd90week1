@@ -4,15 +4,15 @@
 
 You will create a two-page website for yourself.
 
-### Step 1 - Fork this repository.
+### Step 1 - Fork this repository. DONE
 
 From the assignment homepage (https://github.com/fewd90nyc/fewd90week1), click the "Fork" link on the top right. This will create a copy of the assignment in YOUR github account.
 
-### Step 2 - Clone your forked repository.
+### Step 2 - Clone your forked repository. DONE
 
 From the repository homepage (which will be http://github.com/YOURUSERNAME/fewd90week1), click on green "Clone or Download" button and "Open in Desktop". This should open your Github Desktop App and prompt you to save the fewd90week1 folder on your computer. Decide on a place on your computer where you want to store all of your assignments. I suggest creating a FEWD90Homework folder or similar in your Documents or on your Desktop. 
 
-### Step 3 - Build!
+### Step 3 - Build! In Progress
 
 Create your `index.html` and `resume.html` files. Then, write plain text for the content and mark it up, utilizing all of the tags we've learned this week: `<h1>` through `<h6>`, `<p>`, `<a>`, `<img>`, `<ul>`
 
