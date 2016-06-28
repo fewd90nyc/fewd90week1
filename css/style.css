@@ -6,7 +6,8 @@ h1 {
 
 body {
 	background-image: url('../images/background.png');
-	background-position: 0% 0%;
+	
+	background-size: 900px 550px;
 
 }
 
