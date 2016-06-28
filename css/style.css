@@ -1,1 +1,61 @@
+body {
 
+    font-family: 'Gentium Book Basic', courier, serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+    width: 50%;
+    text-align: left;
+    letter-spacing: .5px;
+    line-height: 19px;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+  	font-family: 'Trebuchet MS',Trebuchet,futura,Verdana,sans-serif;
+    color: #FF5C4C;
+    line-height: 22px;
+
+}
+
+h2 {
+  
+    text-transform: uppercase;
+    color: #FF5C4C;
+
+}
+
+h3 {
+ 
+    text-transform: lowercase;
+
+}
+
+a {
+
+  	color: white;
+    background: #FF5C4C;
+
+}
+
+a:hover {
+
+  text-decoration: line-through;
+
+}
+
+ol, ul {
+
+  list-style-position: inside;
+  padding: 0;
+
+}
+
+img {
+
+	border-radius: 4px;
+	max-width:100%;
+	height: auto;
+
+}
