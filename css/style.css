@@ -1,4 +1,17 @@
+h1 {
+	font-weight: bold;
+	background-color: white;
+
+}
+
 body {
-	background-image: url('../images/background.png')
-	
+	background-image: url('../images/background.png');
+	background-position: 0% 0%;
+
+}
+
+p {
+	color: black;
+	background-color: white;
+	font-weight: bold;
 }
