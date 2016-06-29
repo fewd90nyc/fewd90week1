@@ -1,1 +1,25 @@
+body {
+	background-image: url('../images/background.png');
+	margin: 0 auto;
+	padding: 0;
+	width: 350px;
+	text-align: center;
+	/* margin-left: auto; */
 
+	/* you can set several h2s "inline" later */
+	/* margin-right: auto; */
+
+	font-family: Helvetica;
+}
+
+p {
+	background-color: white;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+img {
+
+
+}
