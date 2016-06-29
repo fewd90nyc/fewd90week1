@@ -1,1 +1,199 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+}
+
+body {
+	font-family: "niveau-grotesk",sans-serif;
+	background: #F9F9F9;
+}
+
+h1 {
+	font-weight: 200;
+	text-align: center;
+	margin: 100px auto 0 auto;
+	font-size: 48px;
+	color: #42423F;
+	letter-spacing: 0px;
+	max-width: 780px;
+}
+
+h2 {
+	font-family: "freight-text-pro", sans-serif;
+	font-style: italic;
+	font-weight: 100;
+	font-size: 26px;
+	text-align: center;
+	color: #787574;
+	line-height: 47px;
+	max-width: 660px;
+	margin: 20px auto 0 auto;
+
+}
+
+h3 {
+	font-weight: 200;
+	font-size: 35px;
+	color: #E78319;
+	letter-spacing: 0px;
+	line-height: 47px;
+	margin: 0 auto;
+	max-width: 620px;
+}
+
+h4 {
+	font-weight: 200;
+	font-size: 24px;
+	color: #42423F;
+	letter-spacing: 0px;
+	line-height: 47px;
+	margin: 0 auto;
+	max-width: 620px;
+}
+
+h6 {
+	/* A FAKE WEBSITE BY AB: */
+	font-size: 12px;
+	color: #FFFFFF;
+	letter-spacing: 0px;
+	font-weight: 500;
+	line-height: 20px;
+	letter-spacing: 1px;
+}
+
+p {
+	font-family: "freight-text-pro", sans-serif;
+	font-weight: 200;
+	font-size: 17px;
+	color: #787574;
+	letter-spacing: 0px;
+	line-height: 30px;
+	margin: 0 auto;
+	max-width: 620px;
+}
+
+ul {
+      padding: 45px 10px 0 10px;
+    }
+
+li {
+	display: inline;
+	padding: 0px 10px 0px 10px;
+	font-size: 16px;
+	color: #FFFFFF;
+	font-weight: 600;
+    }
+
+footer {
+	background: #787574;
+	background-size: cover;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 74px;
+	margin: -125px auto 0 auto;
+	max-height: 280px;
+}
+
+.navitem {
+	font-weight: 500;
+	font-size: 16px;
+	color: #FFFFFF;
+	letter-spacing: 0px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.whitebox {
+	background: white;
+	border-radius: 10px;
+	border: none;
+	max-width: 780px;
+	margin: 80px auto;
+	padding-top: 40px;
+	padding-bottom: 63px;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, .2);
+	-moz-box-shadow:    0px 0px 8px rgba(0, 0, 0, .2);
+	box-shadow:         0px 0px 8px rgba(0, 0, 0, .2);
+	position: relative;
+	z-index: 1;
+}
+
+.profilepic {
+	max-width: 300px;
+	display: inline;
+	margin: 100px auto;
+}
+
+.footerlink {
+	color: white;
+	text-decoration: none;
+}
+
+.pullquote {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.toppic {
+      text-align: center;
+      background: url("http://i.imgur.com/Dbg2IQd.jpg");
+      background-size: cover;
+      color: white;
+      max-height: 400px;
+}
+
+.resumebutton {
+    background-color: #E78319;
+    border: none;
+    color: white;
+    padding: 27px 56px 27px 56px;
+    margin: 35px auto -15px auto;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 100px;
+    -webkit-box-shadow: 0px 0px 6px rgba(156, 151, 151, 1);
+	-moz-box-shadow:    0px 0px 6px rgba(156, 151, 151, 1);
+	box-shadow:         0px 0px 6px rgba(156, 151, 151, 1);
+}
+
+.center {
+	text-align: center;
+}
+
+@media (max-width: 780px) {
+	.whitebox {
+	width: 80%;
+}
+}
+
+@media (max-width: 780px) {
+	h1 {
+	font-size: 36px;
+	}
+
+	h2 {
+	width: 80%;
+	font-size: 20px;
+	line-height: 28px;
+}
+	h3 {
+	width: 80%;
+	font-size: 25px;
+	line-height: 40px;
+}
+	h4 {
+	width: 80%;
+	font-size: 20px;
+	line-height: 40px;
+}
+	p {
+	width: 80%;
+	font-size: 14px;
+	}
+}
+
+
 
