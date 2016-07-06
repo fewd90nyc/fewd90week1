@@ -1,6 +1,6 @@
 /* START Body Default */
 body {
-	font-family: "News 706", Georgia, serif;
+	font-family: "Raleway", Georgia, serif;
 	background-color: #FFFEFF;
 	margin: 0;
 	text-align: center;
@@ -11,38 +11,31 @@ body {
 /* START Top Navigation */
 
 nav {
-    font-family: "News 706", Georgia, serif;
-    font-size: 14px;
-    line-height: 22px;
-    text-align: right;
-    background-color: black;
-    padding:10px;
-    position: relative;
+  font-size: 14px;
+  width: 100%;
+  background-color: black;
+  position: fixed;
 }
 
 li {
-	display:inline;
+  display:inline;
 	padding:0px 40px 0px 40px;
 }
 
 .navbar-brand {
   color: white;
-  float: left;
-  height: 50px;
   font-size: 18px;
-  line-height: 20px;
 }
 
 .navbar-nav {
-  margin: 7.5px -15px;
+  margin-top: 15px;
+  text-align: right;
 }
 
 .navbar-header {
-    font-family: "News 706", Georgia, serif;
-    line-height: 22px;
-    float: left;
-    padding: 10px;
-    position: relative;
+  float: left;
+  padding: 10px;
+  margin-left: 30px;
   }
 
 .white-text {
@@ -51,14 +44,18 @@ li {
 
 /* END Top Navigation */
 
+/* Footer */
+
+footer {
+}
+
+/* END footer */
+
 /* START Header & Image */
 
 img {
-	margin-top: 10px;
-	margin-left: -152px; /* I don't know why this got out of line! I've used margin to fix but it's ugly...*/
-	max-width: 300px;
-	border:4px solid black;
-	border-radius: 10px;
+	margin-top:45px;
+	width: 100%;
 }
 
 /* END Header & Image */
@@ -70,12 +67,30 @@ a {
 	color:black;
 }
 
-
-h3 {
+h2 {
 	padding: 10px;
-	font-size: 18px;
+	font-size: 20px;
 	font-style: italic;
 }
 
+h3 {
+  text-align: left;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.copy-left {
+  box-sizing: border-box;
+  width:100%;
+  border:0px;
+  padding:2%;
+  overflow: hidden;
+}
+
+.copy-left img {
+  width: 20%; 
+  float:left;
+  margin:0px 30px 0px 30px;
+}
 
 /* END Content */
